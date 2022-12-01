@@ -7,4 +7,8 @@ export const StyledApp = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+    @media (max-width: 650px) {
+        gap: 1.5rem;
+    }
 `

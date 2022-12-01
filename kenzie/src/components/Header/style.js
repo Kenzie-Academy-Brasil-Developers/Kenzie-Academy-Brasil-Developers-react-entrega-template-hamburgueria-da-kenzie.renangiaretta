@@ -21,6 +21,7 @@ export const StyledHeader = styled.header`
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         @media (max-width: 380px) {
         width: 100%;
         min-width: 200px;
@@ -39,6 +40,7 @@ export const StyledHeader = styled.header`
 
     @media (max-width: 650px) {
         flex-direction: column;
+        gap: 1rem;
     }
 
 
