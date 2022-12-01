@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StyledProductCard = styled.li`
     background-color: var(--color-grey-20);
     width: 200px;
-    height: 250px;
+    height: 260px;
     border: 2px solid var(--color-grey-20);
     border-radius: 5px;
     display: flex;
@@ -28,12 +28,14 @@ export const StyledProductCard = styled.li`
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+   
     }
     .textsContainer {
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
         gap: 0.2rem;
+        margin-left: 1rem;
     }
 
     h2 {
@@ -66,5 +68,8 @@ export const StyledProductCard = styled.li`
     @keyframes animationeIn {
         0% {opacity: 0}
         100% {opacity: 1}
+    }
+    button {
+        margin: 0rem 0rem 1rem 1rem;
     }
 `
