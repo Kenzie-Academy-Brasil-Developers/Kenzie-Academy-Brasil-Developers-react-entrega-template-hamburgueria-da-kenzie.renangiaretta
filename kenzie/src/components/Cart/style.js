@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const StyledCart = styled.div`
     display: flex;
     flex-direction: column;
-    width: 365px;
-    border: 1px solid var(--color-grey-20);
-    border-radius: 5px;
-    height: 530px;
+    width: 36.5rem;
+    height: 53rem;
+    border: 0.1rem solid var(--color-grey-20);
+    border-radius: 0.5rem;
 
     .cartTitle {
-        border-radius: 5px 5px 0px 0px;
-        background-color: var(--color-primary);
-        width: 100%;
-        height: 65px;
         display: flex;
         align-items: center;
+        width: 100%;
+        height: 6.5rem;
+        background-color: var(--color-primary);
         color: var(--color-grey-0);
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
     }
     h2 {
         margin-left: 2rem;
@@ -25,10 +25,10 @@ export const StyledCart = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: var(--color-grey-0);
         width: 100%;
         min-height: 30%;
-        border-radius: 0px 0px 5px 5px;
+        background-color: var(--color-grey-0);
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
         overflow-y: scroll;
         scroll-behavior: smooth;
         flex-wrap: wrap;
@@ -43,19 +43,18 @@ export const StyledCart = styled.div`
 
         ::-webkit-scrollbar-thumb {
         background-color: var(--color-grey-20);
-        border-radius: 20px;
-        border: 3px solid var(--color-grey-20);
+        border-radius: 2rem;
+        border: 0.3rem solid var(--color-grey-20);
         }
-
 
     }
     ul {
-        width: 100%;
-        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin-top: 1rem;
         gap: 1rem;
     }
 `

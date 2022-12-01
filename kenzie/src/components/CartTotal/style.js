@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const StyledCartTotal = styled.div`
-    margin-top: 1rem;
-    width: 100%;
-    min-height: 100px;
-    background-color: var(--color-grey-0);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-top: 2px solid var(--color-grey-20);
-    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+    min-height: 10rem;
+    gap: 1rem;
+    border-top: 0.2rem solid var(--color-grey-20);
+    background-color: var(--color-grey-0);
 
     .textsContainer {
         margin-top: 2rem;
@@ -24,7 +24,7 @@ export const StyledCartTotal = styled.div`
     h2 {
         font-weight: 1000;
         font-size: 2rem;
-        line-height: 2.4px;
+        line-height: 0.24rem;
         color: var(--color-grey-100);
     }
     span {
@@ -34,16 +34,19 @@ export const StyledCartTotal = styled.div`
         color: var(--color-grey-50);
     }
     button {
-        margin-top: 1rem;
         width: 95%;
-        height: 60px;
+        height: 6rem;
+        margin-top: 1rem;
+        border: 0.2rem solid var(--color-grey-50);
+        border-radius: 0.8rem;
         background-color: var(--color-grey-20);
         color: var(--color-grey-50);
-        border: 2px solid var(--color-grey-50);
-        border-radius: 8px;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 1.6rem;
         line-height: 1.9rem;
+    }
+    button:hover {
+        filter: brightness(90%);
     }
 `

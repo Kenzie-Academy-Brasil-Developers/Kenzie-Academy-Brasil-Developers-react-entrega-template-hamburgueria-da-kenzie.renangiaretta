@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledMain = styled.main`
-    width: 80%;
     display: flex;
     justify-content: space-between;
+    width: 80%;
     @media (max-width: 650px) {
+        align-items: center;
         flex-direction: column;
         margin: 0 auto;
-        align-items: center;
         gap: 3rem;
     }
 `

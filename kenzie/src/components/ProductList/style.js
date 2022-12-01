@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const StyledProductList = styled.ul`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
 
     @media (max-width: 1200px) {
         grid-template-columns: repeat(2, 1fr);

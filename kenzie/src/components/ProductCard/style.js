@@ -2,42 +2,42 @@ import styled from "styled-components";
 
 
 export const StyledProductCard = styled.li`
-    background-color: var(--color-grey-20);
-    width: 200px;
-    height: 280px;
-    border: 2px solid var(--color-grey-20);
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 20rem;
+    height: 28rem;
+    border: 0.2rem solid var(--color-grey-20);
+    border-radius: 0.5rem;
+    background-color: var(--color-grey-20);
     animation-name: animationeIn;
     animation-duration: 1.5s;
 
     img {
-        width: 120px;
-        height: 120px;
+        width: 12rem;
+        height: 12rem;
         background-color: var(--color-grey-20);
         object-fit: cover;
     }
     
     .downHalfContainer{
-        width: 100%;
-        height: 60%;
-        background-color: var(--color-grey-0);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
+        height: 60%;
+        background-color: var(--color-grey-0);
    
     }
     .textsContainer {
         display: flex;
-        height: 60%;
         justify-content: space-between;
         flex-direction: column;
+        height: 60%;
         margin-top: 1rem;
-        gap: 0.2rem;
         margin-left: 1rem;
+        gap: 0.2rem;
     }
 
     h2 {
@@ -58,20 +58,14 @@ export const StyledProductCard = styled.li`
         color: var(--color-primary);
     }
 
-    @keyframes moveToRight {
-      0% {
-        transform: translateX(0px);
-      }
-      100% {
-        transform: translateX(300px);
-      }
-    }
-
     @keyframes animationeIn {
         0% {opacity: 0}
         100% {opacity: 1}
     }
     button {
         margin: 0rem 0rem 1rem 1rem;
+    }
+    button:hover{
+        filter: brightness(115%);
     }
 `

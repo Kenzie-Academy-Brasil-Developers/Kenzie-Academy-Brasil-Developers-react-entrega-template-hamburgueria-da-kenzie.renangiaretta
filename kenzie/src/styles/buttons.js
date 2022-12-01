@@ -1,29 +1,30 @@
 import styled from "styled-components";
 
 export const StyledDefaultButton = styled.button`
-    width: 130px;
-    height: 40px;
-    border: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
-    gap: 10px;
+    width: 13rem;
+    height: 4rem;
+    padding: 0rem, 2rem, 0rem, 2rem;
+    gap: 1rem;
+    border: none;
+    border-radius: 0.8rem;
     background-color: var(--color-primary);
-    padding: 0px, 20px, 0px, 20px;
-    color: #FFFFFF;
+    color: #FFFFFF;    
 `
 
+
 export const StyledMediumButton = styled.button`
-    width: 130px;
-    height: 40px;
-    border: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
-    gap: 10px;
+    width: 13rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.8rem;
+    gap: 1rem;
+    padding: 0rem, 2rem, 0rem, 2rem;
     background-color: var(--color-primary);
-    padding: 0px, 20px, 0px, 20px;
     color: #FFFFFF;
 `

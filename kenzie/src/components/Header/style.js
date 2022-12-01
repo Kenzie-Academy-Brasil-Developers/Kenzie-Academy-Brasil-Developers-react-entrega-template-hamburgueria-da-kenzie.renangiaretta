@@ -1,30 +1,30 @@
 import styled from 'styled-components'
 
 export const StyledHeader = styled.header`
-    background-color: var(--color-grey-0);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
     height: 10rem;
+    background-color: var(--color-grey-0);
 
     img {
         width: 20rem;
     }
     div {
-        width: 365px;
-        height: 60px;
-        border-radius: 0.5rem;
-        border: 2px solid var(--color-grey-20);
-        padding: 0px 10px 0px 15px;
-        background-color: #FFFFFF;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 36.5rem;
+        height: 6rem;
+        padding: 0rem 1rem 0rem 1.5rem;
+        border-radius: 0.5rem;
+        border: 0.2rem solid var(--color-grey-20);
+        background-color: #FFFFFF;
 
         @media (max-width: 380px) {
         width: 100%;
-        min-width: 200px;
+        min-width: 20rem;
         margin: 0 auto;
     }
     }

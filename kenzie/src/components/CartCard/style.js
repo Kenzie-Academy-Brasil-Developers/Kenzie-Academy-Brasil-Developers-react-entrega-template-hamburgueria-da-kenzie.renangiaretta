@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 
 export const StyledCartCard = styled.li`
-    width: 90%;
-    border: 1.5px solid var(--color-grey-20);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     justify-items: center;
     align-items: center;
+    width: 90%;
+    padding: 0.5rem;
+    border: 0.15rem solid var(--color-grey-20);
+    border-radius: 0.5rem;
     animation-name: animationeIn;
     animation-duration: 1s;
 
     img {
-        width: 70px;
+        width: 7rem;
     }
     .cardLeftContainer {
         display: flex;
@@ -22,11 +22,11 @@ export const StyledCartCard = styled.li`
         align-items: center;
     }
     .textsContainer {
-        margin-left: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        margin-left: 1rem;
         word-wrap: break-word;
     }
     .cardTitle {
@@ -43,11 +43,14 @@ export const StyledCartCard = styled.li`
         color: var(--color-grey-50);
     }
     button {
+        height: 4rem;
+        padding: 0rem 2rem 0rem 2rem;
+        border-radius: 0.5rem;
         background-color: var(--color-primary);
         color: var(--color-grey-0);
-        height: 4rem;
-        padding: 0px 20px 0px 20px;
-        border-radius: 0.5rem;
+    }
+    button:hover {
+        filter: brightness(115%);
     }
 
     @keyframes animationeIn {
