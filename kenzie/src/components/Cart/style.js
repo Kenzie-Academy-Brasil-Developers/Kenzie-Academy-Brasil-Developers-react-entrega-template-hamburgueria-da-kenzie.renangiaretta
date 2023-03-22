@@ -4,7 +4,6 @@ export const StyledCart = styled.div`
     display: flex;
     flex-direction: column;
     width: 36.5rem;
-    height: 53rem;
     border: 0.1rem solid var(--color-grey-20);
     border-radius: 0.5rem;
 

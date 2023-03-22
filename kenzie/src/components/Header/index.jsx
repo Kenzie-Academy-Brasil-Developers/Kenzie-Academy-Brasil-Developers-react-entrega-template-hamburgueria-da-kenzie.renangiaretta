@@ -9,7 +9,7 @@ const Header = ({ setFilter, filter }) => {
     <StyledHeader>
         <img src={logo} alt="LOGO" />
         <div>
-        <input value={filter} type="text" placeholder='Pesquisar' onChange={(event) => setFilter(event.target.value)} />
+        <input className='filter-input' value={filter} type="text" placeholder='Pesquisar' onChange={(event) => setFilter(event.target.value)} />
         <StyledDefaultButton type='submit'>Pesquisar</StyledDefaultButton>
         </div>
     </StyledHeader>

@@ -6,7 +6,7 @@ export const StyledMain = styled.main`
     width: 80%;
     @media (max-width: 650px) {
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 auto;
         gap: 3rem;
     }

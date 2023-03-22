@@ -16,9 +16,10 @@ export const StyledHeader = styled.header`
         justify-content: space-between;
         align-items: center;
         width: 36.5rem;
-        height: 6rem;
+        height: 5rem;
         padding: 0rem 1rem 0rem 1.5rem;
         border-radius: 0.5rem;
+        margin: 1rem 0rem;
         border: 0.2rem solid var(--color-grey-20);
         background-color: #FFFFFF;
 
@@ -28,11 +29,11 @@ export const StyledHeader = styled.header`
         margin: 0 auto;
     }
     }
-    input {
+    .filter-input {
         width: 80%;
-        height: 100%;
+        height: 80%;
+        /* background-color: red; */
         border: none;
-       
     }
     button {
         width: 25%;
